@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-22 07:30+0000\n"
-"Last-Translator: The_BadUser <vanjavs41@gmail.com>\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/penpot/frontend/ru/>\n"
+"PO-Revision-Date: 2026-07-31 17:02+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/penpot/frontend/"
+"ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: src/app/main/ui/auth/register.cljs:214, src/app/main/ui/static.cljs:180, src/app/main/ui/viewer/login.cljs:100
 msgid "auth.already-have-account"
@@ -364,7 +364,7 @@ msgid "dashboard.copy-suffix"
 msgstr "(копия)"
 
 #: src/app/main/ui/dashboard/sidebar.cljs:371
-msgid "dashboard.create-new-org"
+msgid "dashboard.create-new-organization"
 msgstr "Создать новую организацию"
 
 #: src/app/main/ui/dashboard/sidebar.cljs:439
@@ -639,9 +639,9 @@ msgstr ""
 #, markdown
 msgid "dashboard.fonts.hero-text2"
 msgstr ""
-"Вам следует загружать только собственные шрифты, или у которых есть "
-"лицензия на использование в Penpot. Больше информации в разделе \"Content "
-"rights\" в [Условиях использования Penpot](https://penpot.app/terms.html). "
+"Загружайте только собственные шрифты или шрифты, на которые у вас есть "
+"лицензия для использования в Penpot. Подробнее см. в разделе «Права на "
+"контент» [Условий использования Penpot](%s). "
 "Также можете прочитать о [лицензировании "
 "шрифтов](https://www.typography.com/faq)."
 
@@ -1372,7 +1372,7 @@ msgstr "Функция «%s» не поддерживается."
 
 #: src/app/main/ui/workspace/tokens/management/forms/shadow.cljs:302, src/app/main/ui/workspace/tokens/management/forms/typography.cljs:232
 msgid "errors.field-max-length"
-msgstr "Должен содержать не более 1 символа."
+msgstr "Должен содержать не более %s символов."
 
 #, unused
 msgid "errors.field-min-length"
@@ -2119,7 +2119,7 @@ msgstr "Возможны технические работы. Пожалуйст
 
 #: src/app/main/ui/static.cljs:317
 msgid "labels.bad-gateway.main-message"
-msgstr "Bad Gateway"
+msgstr "Ошибка шлюза"
 
 #: src/app/main/ui/inspect/attributes/blur.cljs:31, src/app/main/ui/inspect/styles/style_box.cljs:33, src/app/main/ui/workspace/sidebar/options/menus/blur.cljs:115, src/app/main/ui/workspace/sidebar/options/menus/blur.cljs:263, src/app/main/ui/workspace/sidebar/options/menus/blur.cljs:278
 msgid "labels.blur"
@@ -3614,10 +3614,6 @@ msgstr ""
 "После добавления названия команды, вы сможете пригласить людей "
 "присоединиться."
 
-#: src/app/main/ui/onboarding/team_choice.cljs:188
-msgid "onboarding.choice.team-up.create-team-placeholder"
-msgstr "Введите название команды"
-
 #: src/app/main/ui/onboarding/team_choice.cljs:228
 msgid "onboarding.choice.team-up.create-team-without-invite"
 msgstr "Создать команду"
@@ -3855,6 +3851,7 @@ msgid "onboarding.welcome.alt"
 msgstr "Penpot"
 
 #: src/app/main/ui/workspace/sidebar/options/menus/token_typography_row.cljs:42, src/app/main/ui/workspace/sidebar/options/rows/color_row.cljs:101, src/app/main/ui/workspace/sidebar/options/rows/color_row.cljs:108
+#, fuzzy
 msgid "options.deleted-token"
 msgstr "Этот токен не существует или был удален."
 
@@ -3905,11 +3902,7 @@ msgid "shortcut-subsection.edit"
 msgstr "Редактировать"
 
 #: src/app/main/ui/workspace/sidebar/shortcuts.cljs:60
-msgid "shortcut-subsection.general-dashboard"
-msgstr "Общее"
-
-#: src/app/main/ui/workspace/sidebar/shortcuts.cljs:61
-msgid "shortcut-subsection.general-viewer"
+msgid "shortcut-subsection.generic"
 msgstr "Общее"
 
 #: src/app/main/ui/workspace/main_menu.cljs:1005, src/app/main/ui/workspace/sidebar/shortcuts.cljs:62
@@ -4384,14 +4377,6 @@ msgstr "Привязать к пиксельной сетке"
 msgid "shortcuts.start-editing"
 msgstr "Начать редактирование"
 
-#: src/app/main/ui/workspace/sidebar/shortcuts.cljs:182
-msgid "shortcuts.start-measure"
-msgstr "Начать измерение"
-
-#: src/app/main/ui/workspace/sidebar/shortcuts.cljs:183
-msgid "shortcuts.stop-measure"
-msgstr "Остановить измерение"
-
 #: src/app/main/ui/workspace/sidebar/shortcuts.cljs:184
 msgid "shortcuts.thumbnail-set"
 msgstr "Установить миниатюры"
@@ -4865,7 +4850,7 @@ msgstr "Поиск ресурсов"
 #, unused
 msgid "workspace.assets.selected-count"
 msgid_plural "workspace.assets.selected-count"
-msgstr[0] "Выбран ресурс"
+msgstr[0] "Выбрано ресурсов: %s"
 msgstr[1] "Выбраны ресурсы (%s)"
 
 #: src/app/main/ui/workspace/sidebar/assets.cljs
@@ -6585,7 +6570,7 @@ msgstr "Исключить"
 
 #: src/app/main/ui/workspace/context_menu.cljs:447, src/app/main/ui/workspace/context_menu.cljs:476, src/app/main/ui/workspace/sidebar/options/menus/bool.cljs:104
 msgid "workspace.shape.menu.flatten"
-msgstr "Flatten"
+msgstr "Объединить в контур"
 
 #: src/app/main/ui/workspace/context_menu.cljs:305
 msgid "workspace.shape.menu.flip-horizontal"
@@ -7095,3 +7080,2493 @@ msgstr "Автосохранённые версии будут хранитьс�
 #, unused
 msgid "workspace.viewport.click-to-close-path"
 msgstr "Нажмите для замыкания контура"
+
+msgid "auth.check-email"
+msgstr "Проверьте электронную почту!"
+
+msgid "auth.notifications.organization-invitation-accepted"
+msgstr "Теперь вы участник организации %s"
+
+msgid "auth.verification-sent-email"
+msgstr "Мы отправили письмо со ссылкой для подтверждения на адрес:"
+
+msgid "dashboard.change-organization-modal.choose"
+msgstr "Переместить в:"
+
+msgid "dashboard.change-organization-modal.select"
+msgstr "Выберите организацию"
+
+msgid "dashboard.change-organization-modal.text"
+msgstr "Проекты и файлы останутся доступны участникам команды. Команда получит настройки новой организации."
+
+msgid "dashboard.change-organization-modal.title"
+msgstr "Изменить организацию команды"
+
+msgid "dashboard.change-organization-modal.description"
+msgstr "Проекты и файлы останутся доступны участникам команды. Команда получит настройки новой организации."
+
+msgid "dashboard.grid.last-modified-at"
+msgstr "Последнее изменение: %s"
+
+msgid "dashboard.files-layout.grid"
+msgstr "В виде сетки"
+
+msgid "dashboard.files-layout.list"
+msgstr "В виде списка"
+
+msgid "dashboard.go-to-admin-console"
+msgstr "Перейти в консоль администратора"
+
+msgid "dashboard.import.import-error.check-error"
+msgstr "Не удалось проверить этот файл."
+
+msgid "dashboard.import.import-error.corrupt-file"
+msgstr "Похоже, этот файл повреждён."
+
+msgid "dashboard.import.import-error.unknown-error"
+msgstr "При обработке этого файла произошла ошибка."
+
+msgid "dashboard.import.resolve-libraries"
+msgstr "Некоторые библиотеки не удалось связать автоматически. Выберите подходящую библиотеку для каждой из них:"
+
+msgid "dashboard.import.resolve-libraries-summary"
+msgstr "Проверьте связи с библиотеками перед подтверждением:"
+
+msgid "dashboard.import.confirm-library-links"
+msgstr "Подтвердить связи с библиотеками"
+
+msgid "dashboard.import.review-links"
+msgstr "Проверить связи"
+
+msgid "dashboard.import.summary.auto-linked"
+msgstr "Связано автоматически"
+
+msgid "dashboard.import.summary.your-selection"
+msgstr "Ваш выбор"
+
+msgid "dashboard.import.summary.linked"
+msgstr "Связано"
+
+msgid "dashboard.import.summary.no-selection"
+msgstr "Библиотека не выбрана"
+
+msgid "dashboard.invitations.no-permission"
+msgstr "У вас нет разрешения приглашать людей в эту команду, а также изменять или удалять приглашения."
+
+msgid "dashboard.leave-organization"
+msgstr "Покинуть организацию"
+
+msgid "dashboard.leave-organization.toast"
+msgstr "Вы больше не участник организации %s."
+
+msgid "dashboard.other-teams"
+msgstr "Другие команды"
+
+msgid "dashboard.personal-projects"
+msgstr "Личные проекты"
+
+msgid "dashboard.plus-create-new-organization"
+msgstr "+ Создать организацию"
+
+msgid "dashboard.section.organizations"
+msgstr "Организации"
+
+msgid "dashboard.section.teams"
+msgstr "Команды"
+
+msgid "dashboard.select-organization-modal.accept"
+msgstr "ДОБАВИТЬ В ОРГАНИЗАЦИЮ"
+
+msgid "dashboard.select-organization-modal.choose"
+msgstr "Выберите организацию:"
+
+msgid "dashboard.select-organization-modal.select"
+msgstr "Выберите организацию"
+
+msgid "dashboard.select-organization-modal.external-invitations-warning"
+msgstr "Организация «%s» разрешает присоединяться к её командам только участникам организации. Все ожидающие приглашения людей, не состоящих в организации, будут отозваны."
+
+msgid "dashboard.select-organization-modal.external-invitations-will-be-canceled"
+msgstr "Ожидающие приглашения внешних пользователей будут отменены."
+
+msgid "dashboard.select-organization-modal.permission-info"
+msgstr "Здесь показаны организации, в которых вы состоите и куда можете переместить команду."
+
+msgid "dashboard.select-organization-modal.permission-info-add"
+msgstr "Здесь показаны организации, в которых вы состоите и куда можете создать или добавить команды."
+
+msgid "dashboard.select-organization-modal.title"
+msgstr "Добавить команду в организацию"
+
+msgid "dashboard.team-belong-organization"
+msgstr "Теперь команда входит в организацию %s"
+
+msgid "dashboard.team-no-longer-belong-organization"
+msgstr "Команда больше не входит в организацию %s"
+
+msgid "dashboard.team-organization"
+msgstr "Организация команды"
+
+msgid "dashboard.team-organization.add"
+msgstr "Добавить в организацию"
+
+msgid "dashboard.team-organization.change"
+msgstr "Изменить организацию команды"
+
+msgid "dashboard.team-organization.none"
+msgstr "Команда не входит ни в одну организацию"
+
+msgid "dashboard.team-organization.remove"
+msgstr "Удалить команду из организации"
+
+msgid "dashboard.user-no-longer-belong-organization"
+msgstr "Вы больше не участник организации %s"
+
+msgid "dashboard.webgl-switch.beta"
+msgstr "Бета-версия"
+
+msgid "dashboard.webgl-switch.description"
+msgstr "Рендеринг WebGL может повысить производительность, но эта функция находится в бета-версии и может работать менее стабильно. Между холстом, экспортом (SVG/PDF) и режимом просмотра могут быть небольшие визуальные различия."
+
+msgid "dashboard.webgl-switch.disabled"
+msgstr "Отключено"
+
+msgid "dashboard.webgl-switch.enabled"
+msgstr "Включено"
+
+msgid "dashboard.webgl-switch.feedback"
+msgstr "Оставить отзыв"
+
+msgid "dashboard.webgl-switch.status"
+msgstr "Состояние"
+
+msgid "dashboard.webgl-switch.title"
+msgstr "Рендеринг WebGL"
+
+msgid "dashboard.check-updates.available-title"
+msgstr "ДОСТУПНА НОВАЯ ВЕРСИЯ PENPOT"
+
+msgid "dashboard.check-updates.available-message"
+msgstr "Новые версии повышают производительность, добавляют возможности и исправления, которые поддерживают вашу установку в актуальном состоянии."
+
+msgid "dashboard.check-updates.installed-version"
+msgstr "Установленная версия"
+
+msgid "dashboard.check-updates.latest-version"
+msgstr "Последняя версия"
+
+msgid "dashboard.check-updates.highlights-title"
+msgstr "Что нового — главное"
+
+msgid "dashboard.check-updates.view-changelog"
+msgstr "Открыть полный список изменений"
+
+msgid "dashboard.check-updates.view-release-notes"
+msgstr "Открыть примечания к выпуску"
+
+msgid "dashboard.check-updates.unable-title"
+msgstr "НЕ УДАЛОСЬ ПРОВЕРИТЬ ОБНОВЛЕНИЯ"
+
+msgid "dashboard.check-updates.unable-message"
+msgstr "Эта установка не смогла связаться с сервисом выпусков Penpot."
+
+msgid "dashboard.check-updates.unable-hint"
+msgstr "Проверьте сеть или настройки экземпляра."
+
+msgid "dashboard.check-updates.try-again"
+msgstr "Повторить попытку"
+
+msgid "dashboard.check-updates.uptodate-title"
+msgstr "PENPOT УЖЕ ОБНОВЛЁН"
+
+msgid "dashboard.check-updates.uptodate-message"
+msgstr "У вас установлена последняя стабильная версия:"
+
+msgid "dashboard.invite-profile-disabled"
+msgstr "У вас нет разрешения приглашать людей в эту команду"
+
+msgid "errors.circular-library-reference"
+msgstr "Не удалось добавить библиотеку: это создаст циклическую зависимость"
+
+msgid "errors.clipboard-api-unavailable"
+msgstr "API буфера обмена недоступен. Откройте Penpot по HTTPS, чтобы включить доступ к буферу обмена"
+
+msgid "errors.clipboard-permission-denied"
+msgstr "Доступ к буферу обмена запрещён. Разрешите доступ к буферу обмена в браузере, чтобы вставлять содержимое"
+
+msgid "errors.font-family-invalid-chars"
+msgstr "Название семейства шрифтов может содержать только буквы, цифры, пробелы, дефисы, символы подчёркивания и точки."
+
+msgid "errors.invite-email-mismatch"
+msgstr "Это приглашение предназначено для другого адреса электронной почты. Выйдите из аккаунта и войдите с приглашённым аккаунтом или попросите владельца команды отправить новое приглашение."
+
+msgid "errors.invite-expired"
+msgstr "Срок действия приглашения истёк. Попросите владельца команды отправить новое приглашение."
+
+msgid "errors.organization-leave.no-valid-teams"
+msgstr "Не удалось покинуть организацию."
+
+msgid "errors.organization-leave.organization-owner-cannot-leave"
+msgstr "Владелец организации не может покинуть её."
+
+msgid "errors.organization-not-found"
+msgstr "Такая организация не существует"
+
+msgid "errors.weak-password"
+msgstr "Пароль не соответствует требованиям"
+
+msgid "errors.weak-password.too-short"
+msgstr "Не менее 8 символов"
+
+msgid "errors.weak-password.insufficient-lowercase"
+msgstr "Не менее одной строчной буквы"
+
+msgid "errors.weak-password.insufficient-uppercase"
+msgstr "Не менее одной прописной буквы"
+
+msgid "errors.weak-password.insufficient-digits"
+msgstr "Не менее одной цифры"
+
+msgid "errors.weak-password.insufficient-special"
+msgstr "Не менее одного специального символа"
+
+msgid "errors.weak-password.in-dictionary"
+msgstr "Пароль слишком распространён"
+
+msgid "errors.team-leave.only-owner-can-delete"
+msgstr "Удалить команду может только её владелец."
+
+msgid "errors.team-name-invalid-chars"
+msgstr "Название команды не может содержать следующие символы: «.», «:» или «/»"
+
+msgid "errors.token-theme-not-existing-sets"
+msgstr "Тема ссылается на несуществующие наборы: %s"
+
+msgid "errors.tokens.circular-reference"
+msgstr "Токен содержит циклическую ссылку"
+
+msgid "errors.tokens.empty-field"
+msgstr "Это поле не может быть пустым"
+
+msgid "errors.tokens.empty-input"
+msgstr "Значение токена не может быть пустым"
+
+msgid "errors.tokens.error-parse"
+msgstr "Ошибка импорта: не удалось разобрать JSON."
+
+msgid "errors.tokens.import-error"
+msgstr "Ошибка импорта:"
+
+msgid "errors.tokens.invalid-color"
+msgstr "Недопустимое значение цвета: %s"
+
+msgid "errors.tokens.invalid-value"
+msgstr "Недопустимое значение токена: %s"
+
+msgid "errors.tokens.missing-references"
+msgstr "Отсутствуют ссылки на токены:"
+
+msgid "errors.tokens.no-token-files-found"
+msgstr "В этом файле не найдены токены, наборы или темы."
+
+msgid "errors.tokens.self-reference"
+msgstr "Токен ссылается на себя"
+
+msgid "errors.tokens.value-with-percent"
+msgstr "Недопустимое значение: символ % не разрешён."
+
+msgid "errors.tokens.value-with-units"
+msgstr "Недопустимое значение: единицы измерения не разрешены."
+
+msgid "labels.blur-effects"
+msgstr "Эффекты размытия"
+
+msgid "labels.current"
+msgstr "Текущий"
+
+msgid "labels.default"
+msgstr "По умолчанию"
+
+msgid "labels.delete-profile-photo.message"
+msgstr "Вы уверены, что хотите удалить фотографию профиля?"
+
+msgid "labels.delete-profile-photo.title"
+msgstr "Удалить фотографию профиля"
+
+msgid "labels.dismiss"
+msgstr "Закрыть"
+
+msgid "labels.download-simple"
+msgstr "Скачать"
+
+msgid "labels.downloading-file"
+msgstr "Скачивание файла…"
+
+msgid "labels.exit"
+msgstr "Выйти"
+
+msgid "labels.flex-layout"
+msgstr "Гибкий макет"
+
+msgid "labels.grid-layout"
+msgstr "Макет сетки"
+
+msgid "labels.integrations"
+msgstr "Интеграции"
+
+msgid "labels.no-matches"
+msgstr "Совпадений нет"
+
+msgid "labels.open"
+msgstr "Открыть"
+
+msgid "labels.uploading-file"
+msgstr "Загрузка файла…"
+
+msgid "labels.check-for-updates"
+msgstr "Проверить обновления"
+
+msgid "labels.checking-for-updates"
+msgstr "Проверка обновлений…"
+
+msgid "labels.sso-error.title"
+msgstr "Не удалось войти через %s"
+
+msgid "labels.sso-error.desc-message"
+msgstr "Вход через поставщика удостоверений вашей организации не завершён. Поставщик может быть недоступен, либо вашей учётной записи ещё нет в его каталоге."
+
+msgid "labels.sso-error.retry"
+msgstr "Повторить попытку"
+
+msgid "viewer.header.edit-in-workspace"
+msgstr "Редактировать в рабочей области"
+
+msgid "onboarding.choice.team-up.create-team-name"
+msgstr "Название команды"
+
+msgid "onboarding.choice.team-up.create-team-enter"
+msgstr "Введите название команды"
+
+msgid "onboarding.choice.team-up.invite-members-desc"
+msgstr "Разработчики, дизайнеры, менеджеры — рады всем. Позже можно будет пригласить других участников."
+
+msgid "onboarding.questions.referer.article"
+msgstr "Статья (блог, публикация, рассылка)"
+
+msgid "onboarding.questions.referer.search"
+msgstr "Поисковая система (Google, Yahoo, Bing)"
+
+msgid "onboarding.questions.referer.social"
+msgstr "Социальные сети (X, LinkedIn, Facebook и др.)"
+
+msgid "onboarding.questions.team-size.1001-5000"
+msgstr "1 001–5 000"
+
+msgid "onboarding.questions.team-size.101-500"
+msgstr "101–500"
+
+msgid "onboarding.questions.team-size.2-100"
+msgstr "2–100"
+
+msgid "onboarding.questions.team-size.501-1000"
+msgstr "501–1 000"
+
+msgid "onboarding.questions.team-size.just-me"
+msgstr "Только я"
+
+msgid "onboarding.questions.team-size.more-than-5001"
+msgstr "5 001+"
+
+msgid "workspace.assets.colors.add-color"
+msgstr "Добавить цвет"
+
+msgid "workspace.assets.components.add-component"
+msgstr "Добавить компонент"
+
+msgid "workspace.assets.components.num-variants"
+msgstr "Вариантов: %s"
+
+msgid "workspace.assets.delete-pages"
+msgstr "Удалить страницы"
+
+msgid "workspace.assets.delete-group"
+msgstr "Удалить группу"
+
+msgid "workspace.assets.grid-view"
+msgstr "В виде сетки"
+
+msgid "workspace.assets.list-view"
+msgstr "В виде списка"
+
+msgid "workspace.assets.manage-library"
+msgstr "Управление библиотекой"
+
+msgid "workspace.assets.typography.add-typography"
+msgstr "Добавить типографику"
+
+msgid "workspace.clipboard.copying"
+msgstr "Копирование изображения…"
+
+msgid "workspace.clipboard.image-copied"
+msgstr "Изображение скопировано в буфер обмена"
+
+msgid "workspace.clipboard.image-copy-failed"
+msgstr "Не удалось скопировать изображение"
+
+msgid "workspace.colorpicker.color-tokens"
+msgstr "Цветовые токены"
+
+msgid "workspace.context-menu.guides.change-color"
+msgstr "Цвет направляющей"
+
+msgid "workspace.context-menu.guides.remove"
+msgstr "Удалить направляющую"
+
+msgid "workspace.debug.title"
+msgstr "Инструменты отладки"
+
+msgid "workspace.header.menu.find"
+msgstr "Найти"
+
+msgid "workspace.header.menu.find-and-replace"
+msgstr "Найти и заменить"
+
+msgid "workspace.header.menu.hide-comments"
+msgstr "Скрыть комментарии"
+
+msgid "workspace.header.menu.show-comments"
+msgstr "Показать комментарии"
+
+msgid "workspace.header.menu.lock-guides"
+msgstr "Заблокировать направляющие"
+
+msgid "workspace.header.menu.unlock-guides"
+msgstr "Разблокировать направляющие"
+
+msgid "workspace.header.menu.toggle-system-theme"
+msgstr "Переключить системную тему"
+
+msgid "workspace.header.share"
+msgstr "Поделиться"
+
+msgid "workspace.options.blur-effects-options.title"
+msgstr "Эффекты размытия"
+
+msgid "workspace.options.blur-effects-options.title.group"
+msgstr "Эффекты размытия группы"
+
+msgid "workspace.options.blur-effects-options.title.multiple"
+msgstr "Эффекты размытия выделения"
+
+msgid "workspace.options.blur-options.add-blur"
+msgstr "Добавить размытие"
+
+msgid "workspace.options.blur-options.background-blur"
+msgstr "Размытие фона"
+
+msgid "workspace.options.blur-options.layer-blur"
+msgstr "Размытие слоя"
+
+msgid "workspace.options.blur-options.toggle-blur"
+msgstr "Переключить размытие"
+
+msgid "workspace.options.blur-options.toggle-more-options"
+msgstr "Показать или скрыть дополнительные параметры"
+
+msgid "workspace.options.component.unlinked"
+msgstr "Связь удалена"
+
+msgid "workspace.options.export.add-export"
+msgstr "Добавить экспорт"
+
+msgid "workspace.options.cancel-export"
+msgstr "Отменить экспорт"
+
+msgid "workspace.options.exporting-cancelled"
+msgstr "Экспорт отменён"
+
+msgid "workspace.options.exporting-cancelling"
+msgstr "Отмена…"
+
+msgid "workspace.options.exporting-queued"
+msgstr "Ожидание…"
+
+msgid "workspace.options.exporting-busy"
+msgstr "Сервис экспорта занят. Повторите попытку позже"
+
+msgid "workspace.options.fill.add-fill"
+msgstr "Добавить заливку"
+
+msgid "workspace.options.fill.section"
+msgstr "Заливка"
+
+msgid "workspace.options.fit-content"
+msgstr "Изменить размер доски по содержимому"
+
+msgid "workspace.options.guides.add-guide"
+msgstr "Добавить направляющую"
+
+msgid "workspace.options.guides.remove-guide"
+msgstr "Удалить направляющую"
+
+msgid "workspace.options.guides.toggle-guide"
+msgstr "Показать или скрыть направляющую"
+
+msgid "workspace.options.interactions.add-interaction"
+msgstr "Добавить взаимодействие"
+
+msgid "workspace.options.interactions.remove-interaction"
+msgstr "Удалить взаимодействие"
+
+msgid "workspace.options.more-token-colors"
+msgstr "Другие цветовые токены"
+
+msgid "workspace.options.no-size-preset-results"
+msgstr "Подходящих пресетов размера нет"
+
+msgid "workspace.options.search-size-preset"
+msgstr "Поиск пресета размера"
+
+msgid "workspace.options.shadow-options.add-shadow"
+msgstr "Добавить тень"
+
+msgid "workspace.options.shadow-options.toggle-shadow"
+msgstr "Переключить тень"
+
+msgid "workspace.options.size.lock"
+msgstr "Заблокировать соотношение сторон"
+
+msgid "workspace.options.size.unlock"
+msgstr "Разблокировать соотношение сторон"
+
+msgid "workspace.options.stroke.add-stroke"
+msgstr "Добавить цвет обводки"
+
+msgid "workspace.options.stroke.toggle-stroke"
+msgstr "Переключить обводку"
+
+msgid "workspace.options.text-options.text-section"
+msgstr "Текст"
+
+msgid "workspace.sidebar.layers.filter"
+msgstr "Фильтр"
+
+msgid "workspace.sidebar.layers.no-matches"
+msgstr "Совпадений нет"
+
+msgid "workspace.sidebar.layers.replace"
+msgstr "Заменить"
+
+msgid "workspace.sidebar.layers.replace-all"
+msgstr "Заменить всё"
+
+msgid "workspace.sidebar.layers.replace-placeholder"
+msgstr "Заменить на…"
+
+msgid "workspace.sidebar.layers.search-and-replace"
+msgstr "Найти и заменить"
+
+msgid "workspace.sidebar.layers.search-scope-canvas"
+msgstr "Содержимое текста"
+
+msgid "workspace.sidebar.layers.search-scope-layers"
+msgstr "Названия слоёв"
+
+msgid "workspace.toast.comments-hidden"
+msgstr "Комментарии скрыты"
+
+msgid "workspace.toast.comments-visible"
+msgstr "Комментарии показаны"
+
+msgid "workspace.top-bar.webgl-context-lost"
+msgstr "Рендеринг недоступен. Обновите страницу, чтобы продолжить редактирование."
+
+msgid "workspace.top-bar.webgl-context-lost.reload"
+msgstr "Обновить"
+
+msgid "workspace.toolbar.arrow"
+msgstr "Стрелка (%s)"
+
+msgid "workspace.toolbar.debug"
+msgstr "Инструменты отладки"
+
+msgid "workspace.toolbar.line"
+msgstr "Линия (%s)"
+
+msgid "workspace.toolbar.mcp"
+msgstr "MCP"
+
+msgid "workspace.toolbar.mcp-connect-here"
+msgstr "Подключить здесь"
+
+msgid "workspace.toolbar.mcp-connected"
+msgstr "MCP подключён"
+
+msgid "dashboard.change-organization-modal.accept"
+msgstr "ПЕРЕМЕСТИТЬ КОМАНДУ"
+
+msgid "dashboard.no-organization-allows-create-team.message"
+msgstr "У вас нет разрешения добавлять команды ни в одну из ваших организаций."
+
+msgid "dashboard.no-permission-create-team.message"
+msgstr "У вас нет разрешения создавать команды в организации %s. За дополнительной информацией обратитесь к владельцу организации."
+
+msgid "dashboard.no-permission-delete-team.message"
+msgstr "У вас нет разрешения удалять команды, входящие в организацию %s. За дополнительной информацией обратитесь к владельцу организации."
+
+msgid "dashboard.no-permission-move-team.message"
+msgstr "У вас нет разрешения перемещать команды, входящие в организацию %s. За дополнительной информацией обратитесь к владельцу организации."
+
+msgid "dashboard.organization-deleted"
+msgstr "Организация %s удалена."
+
+msgid "dashboard.team-organization.add.no-valid-organizations"
+msgstr "У вас нет разрешения добавлять эту команду ни в одну из ваших организаций."
+
+msgid "dashboard.team-organization.disabled-organization-tooltip"
+msgstr "Приглашать можно только людей из вашей организации."
+
+msgid "ds.inputs.token-field.no-active-token-option"
+msgstr "Токен {%s} не входит ни в один активный набор или имеет недопустимое значение."
+
+msgid "errors.max-quote-reached"
+msgstr "Достигнут максимальный размер кавычек"
+
+msgid "errors.tokens.composite-line-height-needs-font-size"
+msgstr "Высота строки зависит от размера шрифта. Добавьте размер шрифта, чтобы получить вычисленное значение."
+
+msgid "errors.tokens.invalid-font-family-token-value"
+msgstr "Недопустимое значение токена: можно ссылаться только на токен семейства шрифтов"
+
+msgid "errors.tokens.invalid-font-weight-token-value"
+msgstr "Недопустимое значение насыщенности шрифта: используйте число (100–950) или стандартное название (thin, light, regular, bold и т. д.), при необходимости с суффиксом «Italic»"
+
+msgid "errors.tokens.invalid-json"
+msgstr "Ошибка импорта: недопустимые данные токенов в JSON."
+
+msgid "errors.tokens.invalid-json-token-name"
+msgstr "Ошибка импорта: недопустимое имя токена в JSON."
+
+msgid "errors.tokens.invalid-json-token-name-detail"
+msgstr "«%s» не является допустимым именем токена. Имена токенов могут содержать только буквы и цифры, разделённые точками, и не должны начинаться со знака $."
+
+msgid "errors.tokens.invalid-shadow-type-token-value"
+msgstr "Недопустимый тип тени: разрешены только «innerShadow» и «dropShadow»"
+
+msgid "errors.tokens.invalid-text-case-token-value"
+msgstr "Недопустимое значение токена: разрешены только none, Uppercase, Lowercase и Capitalize"
+
+msgid "errors.tokens.invalid-text-decoration-token-value"
+msgstr "Недопустимое значение токена: разрешены только none, underline и strike-through"
+
+msgid "errors.tokens.invalid-token-value-shadow"
+msgstr "Недопустимое значение: необходимо указать составной токен тени."
+
+msgid "errors.tokens.invalid-token-value-typography"
+msgstr "Недопустимое значение: необходимо указать составной токен типографики."
+
+msgid "errors.tokens.name-collision"
+msgstr "Имя группы %s конфликтует с токеном с таким же именем в другом активном наборе."
+
+msgid "errors.tokens.number-too-large"
+msgstr "Недопустимое значение токена. Вычисленное значение слишком велико: %s"
+
+msgid "errors.tokens.opacity-range"
+msgstr "Непрозрачность должна быть указана в диапазоне от 0 до 100% или от 0 до 1 (например, 50% или 0.5)."
+
+msgid "errors.tokens.shadow-blur-range"
+msgstr "Размытие тени должно быть не меньше 0."
+
+msgid "errors.tokens.shadow-spread-range"
+msgstr "Расширение тени должно быть не меньше 0."
+
+msgid "errors.tokens.stroke-width-range"
+msgstr "Толщина обводки должна быть не меньше 0."
+
+msgid "workspace.assets.component-group-options"
+msgstr "Параметры группы компонентов"
+
+msgid "workspace.component.swap.loop-error"
+msgstr "Компоненты нельзя вкладывать друг в друга."
+
+msgid "workspace.component.switch.loop-error-multi"
+msgstr "Некоторые копии не удалось заменить. Компоненты нельзя вкладывать друг в друга."
+
+msgid "workspace.context-menu.grid-cells.copy-columns"
+msgstr "Копировать столбцы"
+
+msgid "workspace.context-menu.grid-cells.copy-rows"
+msgstr "Копировать строки"
+
+msgid "workspace.context-menu.grid-cells.paste-tracks"
+msgstr "Вставить"
+
+msgid "workspace.header.menu.disable-webgl"
+msgstr "Отключить рендеринг WebGL (бета-версия)"
+
+msgid "workspace.header.menu.enable-webgl"
+msgstr "Включить рендеринг WebGL (бета-версия)"
+
+msgid "workspace.header.menu.mcp.plugin.status.connect"
+msgstr "Подключить"
+
+msgid "workspace.header.menu.mcp.plugin.status.disconnect"
+msgstr "Отключить"
+
+msgid "workspace.header.menu.mcp.server.status.disabled"
+msgstr "Управление (состояние: отключено)"
+
+msgid "workspace.header.menu.mcp.server.status.enabled"
+msgstr "Управление (состояние: включено)"
+
+msgid "workspace.header.menu.option.mcp"
+msgstr "Сервер MCP"
+
+msgid "workspace.layout-grid.editor.padding.bottom"
+msgstr "Нижний отступ"
+
+msgid "workspace.layout-grid.editor.padding.horizontal"
+msgstr "Горизонтальный отступ"
+
+msgid "workspace.layout-grid.editor.padding.left"
+msgstr "Отступ слева"
+
+msgid "workspace.layout-grid.editor.padding.right"
+msgstr "Отступ справа"
+
+msgid "workspace.layout-grid.editor.padding.top"
+msgstr "Верхний отступ"
+
+msgid "workspace.layout-grid.editor.padding.vertical"
+msgstr "Вертикальный отступ"
+
+msgid "workspace.libraries.colors.add-library-color"
+msgstr "Добавить цвет в библиотеку"
+
+msgid "workspace.libraries.colors.empty-recent-colors"
+msgstr "Недавних цветов пока нет"
+
+msgid "workspace.libraries.colors.toggle-color-palette"
+msgstr "Показать или скрыть палитру цветов"
+
+msgid "workspace.libraries.connected-to"
+msgstr "Связано с"
+
+msgid "workspace.libraries.empty.add-some"
+msgstr "Или добавьте что-нибудь из этого:"
+
+msgid "workspace.libraries.empty.no-libraries"
+msgstr "В вашей команде нет общих библиотек. Вы можете найти"
+
+msgid "workspace.libraries.empty.some-templates"
+msgstr "шаблоны здесь"
+
+msgid "workspace.libraries.graphics"
+msgstr "Графика"
+
+msgid "workspace.libraries.more-templates"
+msgstr "Можно найти "
+
+msgid "workspace.libraries.text.mixed-tokens"
+msgstr "Смешанные токены"
+
+msgid "workspace.libraries.text.mixed-tokens-and-assets"
+msgstr "Смешанные ресурсы и токены"
+
+msgid "workspace.libraries.text.mixed-typography"
+msgstr "Смешанные ресурсы"
+
+msgid "workspace.libraries.text.multiple-assets-tooltip"
+msgstr "Отсоединить все ресурсы"
+
+msgid "workspace.libraries.text.multiple-token-and-asset-tooltip"
+msgstr "Отсоединить все токены и типографику"
+
+msgid "workspace.libraries.text.multiple-token-tooltip"
+msgstr "Отсоединить все токены"
+
+msgid "workspace.libraries.typography"
+msgstr "Типографика"
+
+msgid "workspace.notification-pill.detail"
+msgstr "Подробнее"
+
+msgid "workspace.options.blur-options.blur-type-select"
+msgstr "Выбор типа размытия"
+
+msgid "workspace.options.blur-options.disabled-blur-label"
+msgstr "Размытие фона поддерживается только в новом рендеринге. Переключитесь на новый рендеринг в меню «Настройки», чтобы использовать этот эффект"
+
+msgid "workspace.options.component.variant.duplicated.copy.locate"
+msgstr "Найти конфликтующие варианты"
+
+msgid "workspace.options.component.variant.duplicated.copy.title"
+msgstr "У этого компонента есть конфликтующие варианты. Убедитесь, что у каждого варианта свой уникальный набор значений свойств."
+
+msgid "workspace.options.component.variant.duplicated.group.locate"
+msgstr "Найти дублирующиеся варианты"
+
+msgid "workspace.options.component.variant.duplicated.group.title"
+msgstr "Некоторые варианты имеют одинаковые свойства и значения"
+
+msgid "workspace.options.component.variant.duplicated.single.all"
+msgstr "У этих вариантов одинаковые свойства и значения. Измените значения, чтобы варианты можно было получить."
+
+msgid "workspace.options.component.variant.duplicated.single.one"
+msgstr "У этого варианта такие же свойства и значения, как у другого варианта. Измените значения, чтобы вариант можно было получить."
+
+msgid "workspace.options.component.variant.duplicated.single.some"
+msgstr "У некоторых из этих вариантов одинаковые свойства и значения. Измените значения, чтобы варианты можно было получить."
+
+msgid "workspace.options.component.variant.malformed.copy"
+msgstr "У этого компонента есть варианты с недопустимыми именами. Убедитесь, что все варианты соответствуют правильной структуре."
+
+msgid "workspace.options.component.variant.malformed.group.locate"
+msgstr "Найти недопустимые варианты"
+
+msgid "workspace.options.component.variant.malformed.group.title"
+msgstr "У некоторых вариантов недопустимые имена"
+
+msgid "workspace.options.component.variant.malformed.locate"
+msgstr "Найти недопустимые варианты"
+
+msgid "workspace.options.component.variant.malformed.single.all"
+msgstr "У этих вариантов недопустимые имена."
+
+msgid "workspace.options.component.variant.malformed.single.one"
+msgstr "У этого варианта недопустимое имя."
+
+msgid "workspace.options.component.variant.malformed.single.some"
+msgstr "У некоторых из этих вариантов недопустимые имена."
+
+msgid "workspace.options.component.variant.malformed.structure.example"
+msgstr "[свойство]=[значение], [свойство]=[значение]"
+
+msgid "workspace.options.component.variant.malformed.structure.title"
+msgstr "Используйте следующую структуру:"
+
+msgid "workspace.options.component.variants-help-modal.intro"
+msgstr "Чтобы сохранять изменения при переключении между вариантами, Penpot связывает слои, которые:"
+
+msgid "workspace.options.component.variants-help-modal.outro"
+msgstr "Изменение любого из этих параметров (например, переименование или группировка слоя) разрывает связь. Отмена изменения восстановит её."
+
+msgid "workspace.options.component.variants-help-modal.rule1"
+msgstr "Имеют одинаковое имя."
+
+msgid "workspace.options.component.variants-help-modal.rule2"
+msgstr "Имеют одинаковый тип."
+
+msgid "workspace.options.component.variants-help-modal.rule2.detail"
+msgstr "Прямоугольник, эллипс, контуры и логические операции считаются одним типом."
+
+msgid "workspace.options.component.variants-help-modal.rule3"
+msgstr "Находятся на одном уровне иерархии."
+
+msgid "workspace.options.component.variants-help-modal.rule3.detail"
+msgstr "Группы, доски и макеты считаются эквивалентными."
+
+msgid "workspace.options.component.variants-help-modal.title"
+msgstr "Как сохраняется связь между вариантами"
+
+msgid "workspace.options.convert-to-typography"
+msgstr "Создать стиль типографики"
+
+msgid "workspace.options.flows.remove-flow"
+msgstr "Удалить поток"
+
+msgid "workspace.options.layer-options.layer-section"
+msgstr "Раздел меню слоя"
+
+msgid "workspace.options.layer-options.toggle-layer"
+msgstr "Показать или скрыть слой"
+
+msgid "workspace.options.pixel grid-color"
+msgstr "Цвет пиксельной сетки"
+
+msgid "workspace.options.radius.hide-all-corners"
+msgstr "Свернуть независимые радиусы"
+
+msgid "workspace.options.radius.radius-section"
+msgstr "Раздел радиуса скругления"
+
+msgid "workspace.options.radius.show-single-corners"
+msgstr "Показать независимые радиусы"
+
+msgid "workspace.options.selection-color.section"
+msgstr "Раздел цвета выделения"
+
+msgid "workspace.options.stroke-dash"
+msgstr "Штрих"
+
+msgid "workspace.options.stroke-gap"
+msgstr "Промежуток"
+
+msgid "workspace.options.stroke-width-top"
+msgstr "Сверху (начало блока)"
+
+msgid "workspace.options.stroke-width-right"
+msgstr "Справа (конец строки)"
+
+msgid "workspace.options.stroke-width-bottom"
+msgstr "Снизу (конец блока)"
+
+msgid "workspace.options.stroke-width-left"
+msgstr "Слева (начало строки)"
+
+msgid "workspace.options.stroke.per-side"
+msgstr "Обводка по сторонам"
+
+msgid "workspace.options.stroke.per-side-disabled"
+msgstr "Обводка по сторонам доступна только в новом рендеринге. Переключитесь на него, чтобы использовать эту функцию."
+
+msgid "workspace.path.actions.handler-type"
+msgstr "Тип обработчика"
+
+msgid "workspace.path.actions.handler-mirror"
+msgstr "Равный"
+
+msgid "workspace.path.actions.handler-aligned"
+msgstr "Выровненный"
+
+msgid "workspace.path.actions.handler-independent"
+msgstr "Независимый"
+
+msgid "workspace.plugins.error.need-editor"
+msgstr "Чтобы использовать этот плагин, у вас должны быть права редактора"
+
+msgid "workspace.plugins.permissions-update.title"
+msgstr "ОБНОВИТЕ ЭТОТ ПЛАГИН"
+
+msgid "workspace.plugins.permissions-update.warning"
+msgstr "Плагин изменился с момента последнего открытия. Теперь он также запрашивает доступ к следующему:"
+
+msgid "workspace.plugins.permissions.allow-download"
+msgstr "Начинать скачивание файлов."
+
+msgid "workspace.plugins.permissions.allow-localstorage"
+msgstr "Хранить данные в браузере."
+
+msgid "workspace.plugins.permissions.clipboard-read"
+msgstr "Читать содержимое буфера обмена."
+
+msgid "workspace.plugins.permissions.clipboard-write"
+msgstr "Читать буфер обмена и записывать в него данные."
+
+msgid "workspace.plugins.permissions.comment-read"
+msgstr "Читать ваши комментарии и ответы."
+
+msgid "workspace.plugins.permissions.comment-write"
+msgstr "Читать и изменять ваши комментарии и отвечать от вашего имени."
+
+msgid "workspace.plugins.permissions.content-read"
+msgstr "Читать содержимое доступных вам файлов."
+
+msgid "workspace.plugins.permissions.content-write"
+msgstr "Читать и изменять содержимое доступных вам файлов."
+
+msgid "workspace.plugins.permissions.library-read"
+msgstr "Читать ваши библиотеки и ресурсы."
+
+msgid "workspace.plugins.permissions.library-write"
+msgstr "Читать и изменять ваши библиотеки и ресурсы."
+
+msgid "workspace.plugins.permissions.title"
+msgstr "ПЛАГИН «%s» ЗАПРАШИВАЕТ ДОСТУП К:"
+
+msgid "workspace.plugins.permissions.user-read"
+msgstr "Читать данные профиля текущего пользователя."
+
+msgid "workspace.plugins.try-out.cancel"
+msgstr "НЕ СЕЙЧАС"
+
+msgid "workspace.plugins.try-out.message"
+msgstr "Хотите посмотреть? Плагин откроется в новом черновике вашей текущей команды. Если передумаете, его всегда можно найти среди установленных плагинов любого файла."
+
+msgid "workspace.plugins.try-out.title"
+msgstr "ПЛАГИН «%s» УСТАНОВЛЕН ДЛЯ ВАШЕГО ПОЛЬЗОВАТЕЛЯ!"
+
+msgid "workspace.plugins.try-out.try"
+msgstr "ПОПРОБОВАТЬ ПЛАГИН"
+
+msgid "workspace.shape.menu.add-layout"
+msgstr "Добавить макет"
+
+msgid "workspace.shape.menu.add-variant"
+msgstr "Создать вариант"
+
+msgid "workspace.shape.menu.add-variant-property"
+msgstr "Добавить свойство"
+
+msgid "workspace.shape.menu.clear-guides"
+msgstr "Удалить направляющие доски"
+
+msgid "workspace.shape.menu.combine-as-variants"
+msgstr "Объединить в варианты"
+
+msgid "workspace.shape.menu.copy-as-image"
+msgstr "Копировать как изображение"
+
+msgid "workspace.shape.menu.copy-css"
+msgstr "Копировать как CSS"
+
+msgid "workspace.shape.menu.copy-css-nested"
+msgstr "Копировать как CSS (вложенные слои)"
+
+msgid "workspace.shape.menu.copy-id"
+msgstr "Копировать идентификатор"
+
+msgid "workspace.shape.menu.copy-props"
+msgstr "Копировать свойства"
+
+msgid "workspace.shape.menu.copy-svg"
+msgstr "Копировать как SVG"
+
+msgid "workspace.shape.menu.copy-text"
+msgstr "Копировать как текст"
+
+msgid "workspace.shape.menu.paste-props"
+msgstr "Вставить свойства"
+
+msgid "workspace.shape.menu.remove-layout"
+msgstr "Удалить макет"
+
+msgid "workspace.shape.menu.remove-variant-property"
+msgstr "Удалить свойство"
+
+msgid "workspace.shape.menu.remove-variant-property.last-property"
+msgstr "У варианта должно быть хотя бы одно свойство"
+
+msgid "workspace.shape.menu.restore-variant"
+msgstr "Восстановить вариант"
+
+msgid "workspace.shape.menu.stroke-to-path"
+msgstr "Преобразовать обводку в контур"
+
+msgid "workspace.sidebar.layers.match-count"
+msgstr "%s из %s"
+
+msgid "workspace.tokens.add set"
+msgstr "Добавить набор"
+
+msgid "workspace.tokens.add-new-theme"
+msgstr "Добавить тему"
+
+msgid "workspace.tokens.add-set-to-group"
+msgstr "Добавить набор в эту группу"
+
+msgid "workspace.tokens.add-token"
+msgstr "Добавить токен: %s"
+
+msgid "workspace.tokens.applied-to"
+msgstr "Применено к"
+
+msgid "workspace.tokens.axis"
+msgstr "Ось"
+
+msgid "workspace.tokens.base-font-size"
+msgstr "Базовый размер шрифта"
+
+msgid "workspace.tokens.base-font-size.error"
+msgstr "Базовый размер шрифта должен быть указан в пикселях или без единиц измерения."
+
+msgid "workspace.tokens.choose-file"
+msgstr "Выберите файл"
+
+msgid "workspace.tokens.choose-folder"
+msgstr "Выберите папку"
+
+msgid "workspace.tokens.color"
+msgstr "Цвет"
+
+msgid "workspace.tokens.copy-name"
+msgstr "Копировать путь токена"
+
+msgid "workspace.tokens.create-new-theme"
+msgstr "Создайте первую тему"
+
+msgid "workspace.tokens.create-one"
+msgstr "Создать"
+
+msgid "workspace.tokens.create-token"
+msgstr "Создать токен типа «%s»"
+
+msgid "workspace.tokens.delete"
+msgstr "Удалить токен"
+
+msgid "workspace.tokens.delete-theme-title"
+msgstr "Удалить тему"
+
+msgid "workspace.tokens.duplicate"
+msgstr "Дублировать токен"
+
+msgid "workspace.tokens.duplicate-group"
+msgstr "Дублировать группу токенов"
+
+msgid "workspace.tokens.duplicate-suffix"
+msgstr "копия"
+
+msgid "workspace.tokens.duplicated-json-token-name"
+msgstr "Ошибка импорта: в JSON есть дублирующееся имя токена."
+
+msgid "workspace.tokens.duplicated-json-token-name-detail"
+msgstr "В другом наборе уже существует токен по пути «%s» или по одному из его префиксов."
+
+msgid "workspace.tokens.edit"
+msgstr "Изменить токен"
+
+msgid "workspace.tokens.edit-theme-title"
+msgstr "Изменить тему"
+
+msgid "workspace.tokens.edit-token"
+msgstr "Изменить токен типа «%s»"
+
+msgid "workspace.tokens.enter-token-name"
+msgstr "Введите имя токена типа «%s»"
+
+msgid "workspace.tokens.error-text-edition"
+msgstr "Токены нельзя применять во время редактирования текста. Выберите слой текста."
+
+msgid "workspace.tokens.export"
+msgstr "Экспорт"
+
+msgid "workspace.tokens.export-tokens"
+msgstr "Экспортировать токены"
+
+msgid "workspace.tokens.export.multiple-files"
+msgstr "Несколько файлов"
+
+msgid "workspace.tokens.export.no-tokens-themes-sets"
+msgstr "Нет токенов, тем или наборов для экспорта."
+
+msgid "workspace.tokens.export.preview"
+msgstr "Предпросмотр:"
+
+msgid "workspace.tokens.export.single-file"
+msgstr "Один файл"
+
+msgid "workspace.tokens.font-size-value-enter"
+msgstr "Размер шрифта или {alias}"
+
+msgid "workspace.tokens.font-variant-not-found"
+msgstr "Не удалось задать насыщенность или начертание. Такой стиль шрифта отсутствует в текущем шрифте"
+
+msgid "workspace.tokens.font-weight-value-enter"
+msgstr "Насыщенность шрифта (300, Bold Italic…) или {alias}"
+
+msgid "workspace.tokens.gaps"
+msgstr "Промежутки"
+
+msgid "workspace.tokens.generic-error"
+msgstr "Ошибка: "
+
+msgid "workspace.tokens.group-name"
+msgstr "Имя группы"
+
+msgid "workspace.tokens.grouping-set-alert"
+msgstr "Группировка наборов токенов пока не поддерживается."
+
+msgid "workspace.tokens.import-button-prefix"
+msgstr "Импортировать %s"
+
+msgid "workspace.tokens.import-menu-folder-option"
+msgstr "Папка"
+
+msgid "workspace.tokens.import-menu-json-option"
+msgstr "Один JSON-файл"
+
+msgid "workspace.tokens.import-menu-zip-option"
+msgstr "ZIP-файл"
+
+msgid "workspace.tokens.import-multiple-files"
+msgstr "В нескольких файлах имена файлов и пути являются именами наборов."
+
+msgid "workspace.tokens.import-single-file"
+msgstr "В одном JSON-файле ключи первого уровня должны быть именами наборов токенов."
+
+msgid "workspace.tokens.import-tokens"
+msgstr "Импортировать токены"
+
+msgid "workspace.tokens.import-tooltip"
+msgstr "Импорт JSON-файла заменит все текущие токены, наборы и темы"
+
+msgid "workspace.tokens.import-warning"
+msgstr "Импорт токенов заменит все текущие токены, наборы и темы."
+
+msgid "workspace.tokens.inactive-set"
+msgstr "Неактивен"
+
+msgid "workspace.tokens.inactive-set-description"
+msgstr "Этот набор неактивен. Измените тему или активируйте набор, чтобы увидеть изменения в области просмотра"
+
+msgid "workspace.tokens.individual-tokens"
+msgstr "Использовать отдельные токены"
+
+msgid "workspace.tokens.label.group"
+msgstr "Группа"
+
+msgid "workspace.tokens.label.group-placeholder"
+msgstr "Добавить группу (например, Mode)"
+
+msgid "workspace.tokens.label.theme"
+msgstr "Тема"
+
+msgid "workspace.tokens.label.theme-placeholder"
+msgstr "Добавить тему (например, Light)"
+
+msgid "workspace.tokens.letter-spacing-value-enter-composite"
+msgstr "Межбуквенное расстояние или {alias}"
+
+msgid "workspace.tokens.line-height-value-enter"
+msgstr "Высота строки (множитель, px, %) или {alias}"
+
+msgid "workspace.tokens.margins"
+msgstr "Внешние отступы"
+
+msgid "workspace.tokens.max-size"
+msgstr "Максимальный размер"
+
+msgid "workspace.tokens.min-size"
+msgstr "Минимальный размер"
+
+msgid "workspace.tokens.missing-reference"
+msgstr "Отсутствующая ссылка"
+
+msgid "workspace.tokens.more-options"
+msgstr "Нажмите правой кнопкой мыши, чтобы увидеть параметры"
+
+msgid "workspace.tokens.no-active-sets"
+msgstr "Нет активных наборов"
+
+msgid "workspace.tokens.no-active-theme"
+msgstr "Нет активной темы"
+
+msgid "workspace.tokens.no-permisions-set"
+msgstr "Чтобы активировать или деактивировать наборы, у вас должны быть права редактора"
+
+msgid "workspace.tokens.no-permission-themes"
+msgstr "Чтобы использовать темы, у вас должны быть права редактора"
+
+msgid "workspace.tokens.no-references-found"
+msgstr "Ссылки не найдены"
+
+msgid "workspace.tokens.no-remap-needed"
+msgstr "Этот токен сейчас не используется в вашем дизайне, поэтому переназначение не требуется."
+
+msgid "workspace.tokens.no-sets-create"
+msgstr "Наборы ещё не созданы. Сначала создайте набор."
+
+msgid "workspace.tokens.no-sets-yet"
+msgstr "Наборов пока нет."
+
+msgid "workspace.tokens.no-themes"
+msgstr "Тем нет."
+
+msgid "workspace.tokens.no-themes-currently"
+msgstr "Сейчас у вас нет тем."
+
+msgid "workspace.tokens.not-remap"
+msgstr "Не переназначать"
+
+msgid "workspace.tokens.num-active-sets"
+msgstr "Активных наборов: %s"
+
+msgid "workspace.tokens.original-value"
+msgstr "Исходное значение: %s"
+
+msgid "workspace.tokens.paddings"
+msgstr "Внутренние отступы"
+
+msgid "workspace.tokens.radius"
+msgstr "Радиус"
+
+msgid "workspace.tokens.ref-not-valid"
+msgstr "Ссылка в {%s} недействительна или отсутствует в активном наборе."
+
+msgid "workspace.tokens.reference-composite"
+msgstr "Введите псевдоним типографического токена"
+
+msgid "workspace.tokens.reference-composite-shadow"
+msgstr "Введите псевдоним токена тени"
+
+msgid "workspace.tokens.reference-error"
+msgstr "Ошибки ссылок: "
+
+msgid "workspace.tokens.remap"
+msgstr "Переназначить токены"
+
+msgid "workspace.tokens.remap-node-references-title"
+msgstr "Переименовать «%s» в «%s» и переназначить все токены в этой группе?"
+
+msgid "workspace.tokens.remap-node-warning-effects"
+msgstr "Это обновит все токены и ссылки, использующие старое имя токена."
+
+msgid "workspace.tokens.remap-token-references-title"
+msgstr "Переназначить все токены, использующие «%s», на «%s»?"
+
+msgid "workspace.tokens.remap-token-warning-effects"
+msgstr "Это изменит все слои и ссылки, использующие старое имя токена."
+
+msgid "workspace.tokens.remap-warning-time"
+msgstr "Это действие может занять некоторое время."
+
+msgid "workspace.tokens.remapping-in-progress"
+msgstr "Переназначение ссылок на токены…"
+
+msgid "workspace.tokens.rename-group"
+msgstr "Переименовать группу токенов"
+
+msgid "workspace.tokens.rename-group-name-hint"
+msgstr "Токены будут автоматически переименованы в %s.(suffix).(tokenName)"
+
+msgid "workspace.tokens.resolved-value"
+msgstr "Вычисленное значение: %s"
+
+msgid "workspace.tokens.search-by-token"
+msgstr "Поиск по имени токена"
+
+msgid "workspace.tokens.select-set"
+msgstr "Выбрать набор"
+
+msgid "workspace.tokens.set-edit-placeholder"
+msgstr "Введите имя (используйте «/» для групп)"
+
+msgid "workspace.tokens.set-selection-theme"
+msgstr "Укажите наборы токенов, которые будут использоваться в этой теме:"
+
+msgid "workspace.tokens.set.not-active"
+msgstr "Набор токенов неактивен"
+
+msgid "workspace.tokens.sets-hint"
+msgstr "Изменить тему и управлять наборами"
+
+msgid "workspace.tokens.setting-description"
+msgstr "Здесь можно настроить базовый размер шрифта, который определяет значение 1rem:"
+
+msgid "workspace.tokens.settings"
+msgstr "Настройки токенов"
+
+msgid "workspace.tokens.shadow-add-shadow"
+msgstr "Добавить тень"
+
+msgid "workspace.tokens.shadow-blur"
+msgstr "Размытие"
+
+msgid "workspace.tokens.shadow-color"
+msgstr "Цвет"
+
+msgid "workspace.tokens.shadow-inset"
+msgstr "Внутренняя"
+
+msgid "workspace.tokens.shadow-remove-shadow"
+msgstr "Удалить тень"
+
+msgid "workspace.tokens.shadow-spread"
+msgstr "Расширение"
+
+msgid "workspace.tokens.shadow-title"
+msgstr "Тени"
+
+msgid "workspace.tokens.shadow-token-blur-value-error"
+msgstr "Значение размытия не может быть отрицательным"
+
+msgid "workspace.tokens.shadow-token-spread-value-error"
+msgstr "Значение расширения не может быть отрицательным"
+
+msgid "workspace.tokens.shadow-x"
+msgstr "X"
+
+msgid "workspace.tokens.shadow-y"
+msgstr "Y"
+
+msgid "workspace.tokens.size"
+msgstr "Размер"
+
+msgid "workspace.tokens.text-case-value-enter"
+msgstr "none | uppercase | lowercase | capitalize или {alias}"
+
+msgid "workspace.tokens.text-decoration-value-enter"
+msgstr "none | underline | strike-through или {alias}"
+
+msgid "workspace.tokens.theme-name"
+msgstr "Тема %s"
+
+msgid "workspace.tokens.theme-name-already-exists"
+msgstr "Тема с таким именем уже существует"
+
+msgid "workspace.tokens.theme.disable"
+msgstr "Отключить"
+
+msgid "workspace.tokens.theme.enable"
+msgstr "Включить"
+
+msgid "workspace.tokens.themes-description"
+msgstr "Здесь можно управлять темами, включать и отключать их, а также настраивать активные наборы."
+
+msgid "workspace.tokens.themes-list"
+msgstr "Список тем"
+
+msgid "workspace.tokens.token-description"
+msgstr "Описание"
+
+msgid "workspace.tokens.token-font-family-select"
+msgstr "Выберите семейство шрифтов"
+
+msgid "workspace.tokens.token-font-family-value"
+msgstr "Семейство шрифтов"
+
+msgid "workspace.tokens.token-font-family-value-enter"
+msgstr "Семейство шрифтов или список шрифтов, разделённых запятыми (,)"
+
+msgid "workspace.tokens.token-name"
+msgstr "Имя"
+
+msgid "workspace.tokens.token-name-duplication-validation-error"
+msgstr "Токен по пути %s или по одному из его префиксов уже существует."
+
+msgid "workspace.tokens.token-name-length-validation-error"
+msgstr "Имя должно содержать хотя бы 1 символ"
+
+msgid "workspace.tokens.token-name-validation-error"
+msgstr " не является допустимым именем токена. Имена токенов могут содержать только буквы и цифры, разделённые точками, и не должны начинаться со знака $."
+
+msgid "workspace.tokens.token-not-resolved"
+msgstr "Не удалось разрешить ссылку на токен с именем: %s"
+
+msgid "workspace.tokens.token-value"
+msgstr "Значение"
+
+msgid "workspace.tokens.token-value-enter"
+msgstr "Введите значение или псевдоним с {alias}"
+
+msgid "workspace.tokens.tokens-section-title"
+msgstr "ТОКЕНЫ — %s"
+
+msgid "workspace.tokens.tools"
+msgstr "Инструменты"
+
+msgid "workspace.tokens.unknown-token-type-message"
+msgstr "Импорт выполнен, но некоторые токены пропущены из-за неподдерживаемых значений $type. Разверните подробности, чтобы увидеть затронутые токены."
+
+msgid "workspace.tokens.unknown-token-type-section"
+msgstr "Тип «%s» не поддерживается (%s):"
+
+msgid "workspace.tokens.use-reference"
+msgstr "Использовать ссылку"
+
+msgid "workspace.tokens.warning-name-change"
+msgstr "Переименование этого токена нарушит все ссылки на его старое имя"
+
+msgid "shortcuts.copy-props"
+msgstr "Копировать свойства"
+
+msgid "shortcuts.create-component-variant"
+msgstr "Создать компонент или вариант"
+
+msgid "shortcuts.delete-node-and-segments"
+msgstr "Удалить узел и сегменты"
+
+msgid "shortcuts.deselect-all"
+msgstr "Снять выделение со всего"
+
+msgid "shortcuts.find"
+msgstr "Найти"
+
+msgid "shortcuts.find-and-replace"
+msgstr "Найти и заменить"
+
+msgid "shortcuts.paste-props"
+msgstr "Вставить свойства"
+
+msgid "shortcuts.paste-replace"
+msgstr "Вставить и заменить"
+
+msgid "shortcuts.plugins"
+msgstr "Менеджер плагинов"
+
+msgid "shortcuts.show-measure"
+msgstr "Показать размеры"
+
+msgid "shortcuts.page"
+msgstr "Страница сочетаний клавиш"
+
+msgid "shortcuts.reset"
+msgstr "Сбросить до значений по умолчанию"
+
+msgid "shortcuts.disable"
+msgstr "Отключить сочетание клавиш"
+
+msgid "shortcuts.disabled-shortcut"
+msgstr "Сочетание клавиш отключено"
+
+msgid "shortcuts.overwritten-by"
+msgstr "Это сочетание клавиш переназначено на %s"
+
+msgid "shortcuts.no-personalized"
+msgstr "Откройте раздел «Все», чтобы начать настройку сочетаний клавиш."
+
+msgid "shortcuts.no-disabled"
+msgstr "Отключенных сочетаний клавиш нет"
+
+msgid "shortcuts.reload-hint"
+msgstr "После изменения сочетаний клавиш перезагрузите все другие открытые вкладки Penpot, чтобы применить изменения."
+
+msgid "shortcuts.no-shortcuts"
+msgstr "Нет сочетаний клавиш, соответствующих поиску"
+
+msgid "shortcuts.personalized"
+msgstr "Настроенные"
+
+msgid "shortcuts.disabled"
+msgstr "Отключенные"
+
+msgid "shortcuts.draw-arrow"
+msgstr "Стрелка"
+
+msgid "shortcuts.draw-line"
+msgstr "Линия"
+
+msgid "shortcuts.import-export"
+msgstr "Импорт и экспорт"
+
+msgid "shortcuts.key-combo"
+msgstr "Нажмите сочетание клавиш"
+
+msgid "shortcuts.edit-modal.conflict"
+msgstr "Сочетание назначено для «%s». Сохранение удалит его оттуда."
+
+msgid "shortcuts.edit-modal.reset-pending"
+msgstr "После сохранения это сочетание вернётся к исходному значению:"
+
+msgid "shortcuts.edit-modal.success"
+msgstr "Это сочетание клавиш доступно и может быть назначено без конфликтов."
+
+msgid "shortcuts.toggle-comments-visibility"
+msgstr "Показать или скрыть комментарии"
+
+msgid "shortcuts.edit-on-settings"
+msgstr "Настроить в параметрах"
+
+msgid "modals.before-leave-organization.message"
+msgstr "В некоторых командах вы единственный участник. Эти команды будут удалены вместе с проектами и файлами."
+
+msgid "modals.before-leave-organization.title"
+msgstr "ПЕРЕД ВЫХОДОМ ИЗ ОРГАНИЗАЦИИ"
+
+msgid "modals.before-leave-organization.warning"
+msgstr "Все команды, в которых вы единственный участник, будут удалены."
+
+msgid "modals.delete-account.info.with-organizations"
+msgstr "Это действие необратимо. Ваш аккаунт, подписка и организации будут немедленно удалены. Вы также потеряете доступ к текущим проектам и файлам."
+
+msgid "modals.delete-account.owned-organizations.list-title"
+msgstr "Организации, которые будут удалены"
+
+msgid "modals.delete-account.owned-organizations.members-count"
+msgstr "Участников: %s"
+
+msgid "modals.delete-account.owned-organizations.teams-count"
+msgstr "Команд: %s"
+
+msgid "modals.delete-asset-group.message"
+msgstr "Вы уверены, что хотите удалить эту группу ресурсов?"
+
+msgid "modals.delete-asset-group.title"
+msgstr "Удалить группу"
+
+msgid "modals.delete-organization-team-confirm.message"
+msgstr "Вы уверены, что хотите удалить эту команду, входящую в организацию %s?"
+
+msgid "modals.delete-pages.body"
+msgstr "Вы уверены, что хотите удалить выбранные страницы?"
+
+msgid "modals.delete-pages.title"
+msgstr "Удалить страницы"
+
+msgid "modals.import-library-tokens.description"
+msgstr "Библиотека содержит токены и темы, которые, вероятно, используются её компонентами."
+
+msgid "modals.import-library-tokens.import"
+msgstr "Импортировать токены"
+
+msgid "modals.import-library-tokens.title"
+msgstr "Импортировать токены из библиотеки?"
+
+msgid "modals.invite-restricted-members.all-blocked"
+msgstr "Приглашать можно только существующих участников организации. В вашем списке нет таких людей, поэтому приглашения не отправлены."
+
+msgid "modals.invite-restricted-members.all-blocked-title"
+msgstr "Приглашения не отправлены"
+
+msgid "modals.invite-restricted-members.all-organization-members-in-team"
+msgstr "В эту команду можно приглашать только участников организации «%s», но все они уже состоят в команде. За дополнительной информацией обратитесь к владельцу организации."
+
+msgid "modals.invite-restricted-members.blocked-addresses"
+msgstr "Адреса, на которые приглашение не будет отправлено"
+
+msgid "modals.invite-restricted-members.cancel"
+msgstr "Отмена"
+
+msgid "modals.invite-restricted-members.description"
+msgstr "Приглашать можно только существующих участников организации."
+
+msgid "modals.invite-restricted-members.send"
+msgstr "Отправить приглашения"
+
+msgid "modals.invite-restricted-members.title"
+msgstr "Некоторые приглашения нельзя отправить"
+
+msgid "modals.invite-restricted-members.warning"
+msgstr "Некоторые люди из вашего списка не получат приглашения."
+
+msgid "modals.leave-organization-and-reassign.hint"
+msgstr "Вы владелец некоторых команд организации. Назначьте другого участника владельцем."
+
+msgid "modals.leave-organization-and-reassign.hint-delete"
+msgstr "В некоторых командах вы единственный участник. Эти команды будут удалены вместе с проектами и файлами."
+
+msgid "modals.leave-organization-and-reassign.hint-promote"
+msgstr "Кроме того, вы владелец некоторых команд организации. Назначьте другого участника владельцем."
+
+msgid "modals.leave-organization-confirm.accept"
+msgstr "Покинуть организацию"
+
+msgid "modals.leave-organization-confirm.message"
+msgstr "Вы навсегда потеряете доступ ко всем её командам, проектам и файлам."
+
+msgid "modals.leave-organization-confirm.title"
+msgstr "Покинуть организацию %s?"
+
+msgid "modals.remove-team-organization.accept"
+msgstr "Удалить из организации"
+
+msgid "modals.remove-team-organization.info"
+msgstr "Проекты и файлы останутся доступны участникам команды, но настройки организации больше не будут применяться."
+
+msgid "modals.remove-team-organization.text"
+msgstr "Вы уверены, что хотите удалить команду «%s» из организации «%s»?"
+
+msgid "modals.remove-team-organization.title"
+msgstr "УДАЛИТЬ КОМАНДУ ИЗ ОРГАНИЗАЦИИ"
+
+msgid "integrations.access-tokens.create"
+msgstr "Создать токен доступа"
+
+msgid "integrations.access-tokens.empty.add-one"
+msgstr "Нажмите кнопку «Создать токен доступа», чтобы создать токен."
+
+msgid "integrations.access-tokens.empty.no-access-tokens"
+msgstr "У вас пока нет токенов."
+
+msgid "integrations.access-tokens.personal"
+msgstr "Персональные токены доступа"
+
+msgid "integrations.access-tokens.personal.description"
+msgstr "Персональные токены доступа работают как альтернатива аутентификации по логину и паролю и позволяют приложениям обращаться к внутреннему API Penpot"
+
+msgid "integrations.copy-to-clipboard"
+msgstr "Копировать в буфер обмена"
+
+msgid "integrations.create-access-token.title"
+msgstr "Создать токен доступа"
+
+msgid "integrations.create-access-token.title.created"
+msgstr "Токен доступа создан"
+
+msgid "integrations.delete-token.accept"
+msgstr "Удалить токен"
+
+msgid "integrations.delete-token.message"
+msgstr "Вы уверены, что хотите удалить этот токен?"
+
+msgid "integrations.delete-token.title"
+msgstr "Удалить токен"
+
+msgid "integrations.expiration-180-days"
+msgstr "180 дней"
+
+msgid "integrations.expiration-30-days"
+msgstr "30 дней"
+
+msgid "integrations.expiration-60-days"
+msgstr "60 дней"
+
+msgid "integrations.expiration-90-days"
+msgstr "90 дней"
+
+msgid "integrations.expiration-date.label"
+msgstr "Срок действия"
+
+msgid "integrations.expiration-never"
+msgstr "Никогда"
+
+msgid "integrations.expired-on"
+msgstr "Истёк %s"
+
+msgid "integrations.expires-on"
+msgstr "Истекает %s"
+
+msgid "integrations.generate-mcp-key.title"
+msgstr "Создать ключ MCP"
+
+msgid "integrations.generate-mcp-key.title.created"
+msgstr "Ключ MCP создан"
+
+msgid "integrations.info.mcp-client-config"
+msgstr "Добавьте эту конфигурацию в клиент MCP (например, в ~/​​​​​​.mcp.json)."
+
+msgid "integrations.info.mcp-server"
+msgstr "Сервер MCP Penpot позволяет клиентам MCP напрямую взаимодействовать с файлами дизайна Penpot."
+
+msgid "integrations.mcp-key.will-expire"
+msgstr "Срок действия ключа MCP истечёт %s"
+
+msgid "integrations.mcp-key.will-not-expire"
+msgstr "У ключа MCP нет срока действия"
+
+msgid "integrations.mcp-server.description"
+msgstr "Сервер MCP Penpot позволяет клиентам MCP напрямую взаимодействовать с файлами дизайна Penpot."
+
+msgid "integrations.mcp-server.mcp-keys.copy"
+msgstr "Копировать ссылку"
+
+msgid "integrations.mcp-server.mcp-keys.help"
+msgstr "Как настроить клиентов MCP"
+
+msgid "integrations.mcp-server.mcp-keys.info"
+msgstr "Это URL сервера, который нужно указать в настройках клиента MCP для подключения к серверу MCP Penpot."
+
+msgid "integrations.mcp-server.mcp-keys.regenerate"
+msgstr "Создать ключ MCP заново"
+
+msgid "integrations.mcp-server.mcp-keys.title"
+msgstr "Ключ MCP"
+
+msgid "integrations.mcp-server.mcp-keys.tootip"
+msgstr "Ключ MCP нужен для настройки клиента MCP"
+
+msgid "integrations.mcp-server.status"
+msgstr "Состояние"
+
+msgid "integrations.mcp-server.status.disabled"
+msgstr "Отключено"
+
+msgid "integrations.mcp-server.status.enabled"
+msgstr "Включено"
+
+msgid "integrations.mcp-server.status.expired.0"
+msgstr "Срок действия ключа MCP, использованного для подключения к серверу MCP, истёк. Поэтому подключение невозможно."
+
+msgid "integrations.mcp-server.status.expired.1"
+msgstr "Создайте ключ MCP заново и обновите конфигурацию клиента новым ключом."
+
+msgid "integrations.mcp-server.title"
+msgstr "Сервер MCP"
+
+msgid "integrations.mcp-server.title.beta"
+msgstr "Бета-версия"
+
+msgid "integrations.name.label"
+msgstr "Имя"
+
+msgid "integrations.name.placeholder"
+msgstr "По имени будет проще понять назначение токена"
+
+msgid "integrations.no-expiration"
+msgstr "Без срока действия"
+
+msgid "integrations.notification.success.copied-link"
+msgstr "Ссылка скопирована в буфер обмена"
+
+msgid "integrations.notification.success.created"
+msgstr "Токен успешно создан"
+
+msgid "integrations.notification.success.mcp-key-copied"
+msgstr "Ключ MCP скопирован"
+
+msgid "integrations.notification.success.mcp-server-disabled"
+msgstr "Сервер MCP отключён"
+
+msgid "integrations.notification.success.mcp-server-enabled"
+msgstr "Сервер MCP включён"
+
+msgid "integrations.notification.success.token-copied"
+msgstr "Токен скопирован"
+
+msgid "integrations.regenerate-mcp-key.info"
+msgstr "Создание ключа MCP заново немедленно отзовёт текущий ключ. Все приложения, использующие его, перестанут работать."
+
+msgid "integrations.regenerate-mcp-key.title"
+msgstr "Создать ключ MCP заново"
+
+msgid "integrations.regenerate-mcp-key.title.created"
+msgstr "Ключ MCP создан заново"
+
+msgid "integrations.title"
+msgstr "Интеграции"
+
+msgid "integrations.token.info.non-recuperable"
+msgstr "Этот уникальный токен нельзя восстановить. Если вы его потеряете, потребуется создать новый."
+
+msgid "integrations.token.will-expire"
+msgstr "Срок действия токена истечёт %s"
+
+msgid "integrations.token.will-not-expire"
+msgstr "У токена нет срока действия"
+
+msgid "subscription.banner.create-organization-info"
+msgstr "Создайте организацию и узнайте, как работает Enterprise. Настройте правила, управляйте командами и получите новый уровень контроля над рабочим процессом дизайна."
+
+msgid "subscription.banner.see-enterprise"
+msgstr "Посмотреть Enterprise в работе"
+
+msgid "subscription.current-plan.enterprise"
+msgstr "Enterprise"
+
+msgid "subscription.current-plan.nitrate"
+msgstr "Enterprise"
+
+msgid "subscription.current-plan.nitrate-trial"
+msgstr "Пробная версия Enterprise"
+
+msgid "subscription.current-plan.professional"
+msgstr "Professional"
+
+msgid "subscription.current-plan.title"
+msgstr "Ваша подписка"
+
+msgid "subscription.current-plan.unlimited"
+msgstr "Unlimited"
+
+msgid "subscription.current-plan.unlimited-trial"
+msgstr "Пробная версия Unlimited"
+
+msgid "subscription.dashboard.banner.renew"
+msgstr "Продлить"
+
+msgid "subscription.dashboard.banner.renew-subscription"
+msgstr "Продлить подписку"
+
+msgid "subscription.dashboard.banner.subscription-expire-days"
+msgstr "Срок действия подписки Enterprise истекает через %s дн. (%s)"
+
+msgid "subscription.dashboard.banner.subscription-expired"
+msgstr "Срок действия подписки Enterprise истёк. (%s)"
+
+msgid "subscription.dashboard.banner.unlock-features"
+msgstr "Разблокировать возможности Enterprise"
+
+msgid "subscription.dashboard.banner.unlock-features-description-text"
+msgstr "Настройте точные разрешения и сохраняйте контроль, не отказываясь от свободы открытого исходного кода, которую ценит ваша команда."
+
+msgid "subscription.dashboard.banner.upgrade-nitrate"
+msgstr "Начать работу с Enterprise"
+
+msgid "subscription.dashboard.power-up.subscribe"
+msgstr "Оформить подписку"
+
+msgid "subscription.dashboard.power-up.trial.bottom-description"
+msgstr "Нравится пробная версия? Навсегда откройте полный доступ. [Оформить подписку|target:self](%s)"
+
+msgid "subscription.dashboard.power-up.unlimited.bottom-text"
+msgstr "Получите неограниченное хранилище, расширенное восстановление файлов и неограниченное число редакторов для всех команд по фиксированной цене. [Посмотреть план Enterprise.|target:self](%s)"
+
+msgid "subscription.dashboard.power-up.unlimited.cta"
+msgstr "Посмотреть"
+
+msgid "subscription.dashboard.power-up.unlimited.top-description"
+msgstr "Дополнительные редакторы, хранилище, автосохранённые версии, резервные копии файлов и многое другое."
+
+msgid "subscription.dashboard.professional-dashboard-cta-title"
+msgstr "В ваших командах %s редакторов, а план Professional рассчитан максимум на 8."
+
+msgid "subscription.dashboard.professional-dashboard-cta-upgrade-owner"
+msgstr "Обновите план до Unlimited или Enterprise, чтобы получить больше редакторов, хранилища и возможностей восстановления файлов. [Оформить подписку.|target:self](%s)"
+
+msgid "subscription.dashboard.unlimited-dashboard-cta-title"
+msgstr "Ваша команда растёт! План Unlimited рассчитан максимум на %s редакторов, а сейчас их уже %s."
+
+msgid "subscription.dashboard.unlimited-dashboard-cta-upgrade-owner"
+msgstr "Обновите план, чтобы он соответствовал текущему числу редакторов. [Оформить подписку.|target:self](%s)"
+
+msgid "subscription.dashboard.unlimited-members-extra-editors-cta-text"
+msgstr "В будущую оплату входят только новые редакторы в ваших командах. При 25 и более редакторах сохраняется фиксированная цена $175 в месяц."
+
+msgid "subscription.dashboard.unlimited-members-extra-editors-cta-title"
+msgstr "Приглашение людей на плане Unlimited"
+
+msgid "subscription.dashboard.upgrade-plan.power-up"
+msgstr "Расширить план"
+
+msgid "subscription.error.nitrate.checkout-cancelled"
+msgstr "Оплата не завершена. Повторите попытку, когда будете готовы."
+
+msgid "subscription.error.nitrate.checkout-failed"
+msgstr "Оплата не завершена. Повторите попытку. Если проблема не исчезнет, напишите нам: support@penpot.app."
+
+msgid "subscription.labels"
+msgstr "Подписка"
+
+msgid "subscription.settings.activate-by-code"
+msgstr "Введите код активации"
+
+msgid "subscription.settings.add-payment-to-continue"
+msgstr "Добавьте способ оплаты, чтобы продолжить после пробного периода"
+
+msgid "subscription.settings.benefits.all-professional-benefits"
+msgstr "Все преимущества плана Professional и:"
+
+msgid "subscription.settings.benefits.all-unlimited-benefits"
+msgstr "Все преимущества плана Unlimited и:"
+
+msgid "subscription.settings.benefits.nitrate-unlimited-benefits"
+msgstr "Все преимущества плана Unlimited, а также:"
+
+msgid "subscription.settings.editors"
+msgstr "(редакторов: %s)"
+
+msgid "subscription.settings.enterprise"
+msgstr "Enterprise"
+
+msgid "subscription.settings.enterprise-trial"
+msgstr "Enterprise (пробная версия)"
+
+msgid "subscription.settings.enterprise.autosave"
+msgstr "Автосохранённые версии и восстановление файлов за 90 дней"
+
+msgid "subscription.settings.enterprise.capped-bill"
+msgstr "Фиксированная ежемесячная оплата"
+
+msgid "subscription.settings.enterprise.unlimited-storage-benefit"
+msgstr "Неограниченное хранилище"
+
+msgid "subscription.settings.enterprise.nitrate.multi-organization-management"
+msgstr "Управление несколькими организациями:"
+
+msgid "subscription.settings.enterprise.nitrate.support-team"
+msgstr "Поддержка сложных иерархий команд и отдельных дочерних организаций."
+
+msgid "subscription.settings.enterprise.nitrate.enterprise-security"
+msgstr "Безопасность Enterprise:"
+
+msgid "subscription.settings.enterprise.nitrate.native-sso"
+msgstr "Встроенные SAML/SSO и полное журналирование аудита для отчётности о соответствии требованиям."
+
+msgid "subscription.settings.enterprise.nitrate.advanced-control"
+msgstr "Расширенное управление:"
+
+msgid "subscription.settings.enterprise.nitrate.plugin-whitelisting"
+msgstr "Точный список разрешённых плагинов, включая защищённый изолированный сервер MCP для подключения ИИ."
+
+msgid "subscription.settings.admin-console"
+msgstr "Консоль администратора"
+
+msgid "subscription.settings.manage-your-subscription"
+msgstr "Управление подпиской"
+
+msgid "subscription.settings.management-dialog.step-2-add-payment-button"
+msgstr "Добавить платёжные данные"
+
+msgid "subscription.settings.management-dialog.step-2-description"
+msgstr "Добавьте платёжные данные сейчас, чтобы подписка продолжилась после пробного периода и вы могли поддержать наш проект с открытым исходным кодом. Оплата пока не будет списана."
+
+msgid "subscription.settings.management-dialog.step-2-skip-button"
+msgstr "Пропустить и начать пробный период"
+
+msgid "subscription.settings.management-dialog.step-2-title"
+msgstr "Помогите нам развиваться и упростите пробный период"
+
+msgid "subscription.settings.management.dialog.downgrade"
+msgstr "Внимание: переход на более дешёвый план означает меньше места в хранилище и более короткие сроки резервного копирования и хранения истории версий."
+
+msgid "subscription.settings.management.dialog.editors"
+msgstr "Редакторы"
+
+msgid "subscription.settings.management.dialog.editors-explanation"
+msgstr "(Владельцы, администраторы и редакторы. Наблюдатели не считаются редакторами)"
+
+msgid "subscription.settings.management.dialog.input-error"
+msgstr "Нельзя указать меньше редакторов, чем у вас сейчас. Измените роль (редактор или администратор на наблюдателя) для тех, кто не редактирует файлы в настройках команды."
+
+msgid "subscription.settings.management.dialog.price-month"
+msgstr "**$%s**/месяц"
+
+msgid "subscription.settings.management.dialog.title"
+msgstr "Применить %s к вашим командам"
+
+msgid "subscription.settings.management.dialog.unlimited-capped-warning"
+msgstr "Совет: увеличьте число мест заранее, чтобы быть готовыми к приглашениям. При 25 и более редакторах в командах действует фиксированная цена $175 в месяц."
+
+msgid "subscription.settings.more-information"
+msgstr "Подробнее"
+
+msgid "subscription.settings.organization-member-month"
+msgstr "участник организации / месяц"
+
+msgid "subscription.settings.other-plans"
+msgstr "Другие планы Penpot"
+
+msgid "subscription.settings.price-user-month"
+msgstr "пользователь / месяц"
+
+msgid "subscription.settings.price-organization-month"
+msgstr "организация / месяц"
+
+msgid "subscription.settings.professional"
+msgstr "Professional"
+
+msgid "subscription.settings.professional.autosave-benefit"
+msgstr "Автосохранённые версии и восстановление файлов за 7 дней"
+
+msgid "subscription.settings.professional.selfhost.community-support"
+msgstr "Все возможности дизайна и прототипирования. Поддержка сообщества."
+
+msgid "subscription.settings.professional.selfhost.control-over-data"
+msgstr "Полный контроль над данными и инфраструктурой."
+
+msgid "subscription.settings.professional.selfhost.unlimited-users"
+msgstr "Неограниченное число пользователей, команд и файлов."
+
+msgid "subscription.settings.professional.storage-benefit"
+msgstr "10 ГБ хранилища"
+
+msgid "subscription.settings.professional.teams-editors-benefit"
+msgstr "Неограниченное число команд. До 8 редакторов во всех ваших командах."
+
+msgid "subscription.settings.section-plan"
+msgstr "Ваша подписка"
+
+msgid "subscription.settings.start-trial"
+msgstr "Начать бесплатный пробный период"
+
+msgid "subscription.settings.subscribe"
+msgstr "Оформить подписку"
+
+msgid "subscription.settings.success.dialog.description"
+msgstr "Подписку можно изменить в любое время на странице «Подписка» в настройках аккаунта."
+
+msgid "subscription.settings.success.dialog.footer"
+msgstr "Пользуйтесь своим планом!"
+
+msgid "subscription.settings.success.dialog.thanks"
+msgstr "Спасибо, что выбрали план Penpot %s!"
+
+msgid "subscription.settings.success.dialog.title"
+msgstr "Вы — %s!"
+
+msgid "subscription.settings.subscribed-since"
+msgstr "Вы используете план %s с %s."
+
+msgid "subscription.settings.try-it-free"
+msgstr "Попробовать бесплатно в течение 14 дней"
+
+msgid "subscription.settings.unlimited.bill"
+msgstr "Фиксированная ежемесячная оплата $175"
+
+msgid "subscription.settings.unlimited.storage-benefit"
+msgstr "25 ГБ хранилища"
+
+msgid "subscription.workspace.header.menu.option.power-up"
+msgstr "Расширить план"
+
+msgid "nitrate.activation-code.expired-error"
+msgstr "Срок действия этого кода истёк."
+
+msgid "nitrate.activation-code.invalid-error"
+msgstr "Недопустимый код."
+
+msgid "nitrate.activation-code.used-error"
+msgstr "Этот код уже использован."
+
+msgid "nitrate.activation-success.active-until"
+msgstr "Ваш план активен до %s."
+
+msgid "nitrate.activation-success.create-organization"
+msgstr "Создать организацию"
+
+msgid "nitrate.activation-success.enjoy"
+msgstr "Пользуйтесь своим планом!"
+
+msgid "nitrate.activation-success.manage-info"
+msgstr "Подписку можно изменить в любое время на странице «Подписка» в настройках аккаунта."
+
+msgid "nitrate.modal-success.title"
+msgstr "Добро пожаловать в Enterprise!"
+
+msgid "nitrate.code-activation.footer-title"
+msgstr "Нужен код?"
+
+msgid "nitrate.code-activation.footer-download"
+msgstr "Запрос на скачивание"
+
+msgid "nitrate.code-activation.footer-after"
+msgstr "Отправьте файл на адрес"
+
+msgid "nitrate.code-activation.footer-before"
+msgstr "и мы отправим вам код."
+
+msgid "nitrate.code-activation.input-label"
+msgstr "Введите код активации"
+
+msgid "nitrate.code-activation.placeholder"
+msgstr "Вставьте код активации сюда"
+
+msgid "nitrate.code-activation.renew-title"
+msgstr "ПРОДЛИТЬ ENTERPRISE"
+
+msgid "nitrate.code-activation.submit"
+msgstr "Активировать"
+
+msgid "nitrate.code-activation.title"
+msgstr "Активировать Enterprise"
+
+msgid "nitrate.contact-sales.button"
+msgstr "Связаться с отделом продаж"
+
+msgid "nitrate.contact-sales.downgrade-contact-info"
+msgstr "Чтобы перейти на этот план, свяжитесь с нашим отделом продаж. Мы поможем изменить подписку и проверить, что всё настроено правильно."
+
+msgid "nitrate.contact-sales.downgrade-organization-deleted"
+msgstr "Ваша организация будет удалена."
+
+msgid "nitrate.contact-sales.downgrade-storage-limited"
+msgstr "Общий объём хранилища, история автосохранений и срок восстановления файлов будут ограничены."
+
+msgid "nitrate.contact-sales.downgrade-teams-available"
+msgstr "Команды, проекты и файлы больше не будут входить в организацию, но останутся доступны."
+
+msgid "nitrate.contact-sales.downgrade-title"
+msgstr "При переходе на более дешёвый план:"
+
+msgid "nitrate.contact-sales.title"
+msgstr "Перейти на план %s?"
+
+msgid "nitrate.form.cancel-anytime"
+msgstr "Оплата будет обработана в конце пробного периода. Отменить можно в любое время."
+
+msgid "nitrate.form.contact-trial"
+msgstr "Свяжитесь с нами, чтобы попробовать Enterprise в течение 14 дней:"
+
+msgid "nitrate.form.contact-upgrade"
+msgstr "Свяжитесь с нами, чтобы перейти на Enterprise:"
+
+msgid "nitrate.form.enter-code"
+msgstr "Введите код активации"
+
+msgid "nitrate.form.enterprise-feature-1"
+msgstr "Глобальные и точные разрешения для команд и проектов"
+
+msgid "nitrate.form.enterprise-feature-2"
+msgstr "Централизованный контроль над действиями и доступом из специальной консоли администратора"
+
+msgid "nitrate.form.enterprise-feature-3"
+msgstr "Полная свобода открытого исходного кода с управлением, необходимым вашей организации"
+
+msgid "nitrate.form.enterprise-intro"
+msgstr "Всё необходимое командам для безопасной работы в большом масштабе%s"
+
+msgid "nitrate.form.enterprise-description"
+msgstr "Сейчас оплата не списывается. Она будет обработана в конце пробного периода. Отменить можно в любое время."
+
+msgid "nitrate.form.contact-us-free-trial"
+msgstr "Свяжитесь с нами, чтобы бесплатно попробовать Enterprise в течение 14 дней:"
+
+msgid "nitrate.form.contact-us-upgrade"
+msgstr "Свяжитесь с нами, чтобы перейти на план Enterprise:"
+
+msgid "nitrate.form.free-trial-button"
+msgstr "Попробовать бесплатно 14 дней"
+
+msgid "nitrate.form.enterprise.price"
+msgstr "за участника в месяц"
+
+msgid "dashboard.import.auto-linked-libraries"
+msgstr "Библиотеки связаны автоматически"
+
+msgid "files-export-modal.options.all.message"
+msgstr "Файл будет экспортирован вместе со связанными библиотеками."
+
+msgid "files-export-modal.options.all.title"
+msgstr "Экспортировать файл и библиотеки"
+
+msgid "files-export-modal.options.include-libraries.message"
+msgstr "Файлы со связанными библиотеками будут включены в экспорт с сохранением связей."
+
+msgid "files-export-modal.options.include-libraries.title"
+msgstr "Экспортировать файл и библиотеки"
+
+msgid "files-export-modal.options.detach.message"
+msgstr "Связанные ресурсы библиотек не будут включены в файл."
+
+msgid "files-export-modal.options.detach-libraries.message"
+msgstr "Связанные ресурсы библиотек не будут включены в файл."
+
+msgid "files-export-modal.options.link-later.title"
+msgstr "Связать совпадающие библиотеки при импорте"
+
+msgid "files-export-modal.options.link-later.message"
+msgstr "При импорте можно будет связать существующие библиотеки с совпадающими именами."
+
+msgid "files-export-modal.options.detach.title"
+msgstr "Обрабатывать ресурсы как обычные объекты"
+
+msgid "files-export-modal.options.detach-libraries.title"
+msgstr "Обрабатывать ресурсы как обычные объекты"
+
+msgid "files-export-modal.options.merge.message"
+msgstr "Ресурсы библиотеки будут объединены с локальной библиотекой."
+
+msgid "files-export-modal.options.merge-libraries.message"
+msgstr "Файл будет экспортирован с ресурсами библиотеки, объединёнными с локальной библиотекой."
+
+msgid "files-export-modal.options.merge.title"
+msgstr "Встроить ресурсы библиотеки в файл"
+
+msgid "files-export-modal.options.merge-libraries.title"
+msgstr "Встроить ресурсы библиотеки в файл"
+
+msgid "inspect.attributes.typography.mixed-font-family"
+msgstr "Смешанные семейства шрифтов"
+
+msgid "inspect.attributes.typography.text-decoration.strikethrough"
+msgstr "Зачёркивание"
+
+msgid "inspect.tabs-switcher-label"
+msgstr "Вкладки инспектора"
+
+msgid "labels.nitrate-unavailable.main-message"
+msgstr "Penpot временно недоступен из-за системной ошибки. Повторите попытку через некоторое время."
+
+msgid "labels.warning-count"
+msgstr "Предупреждений: %s"
+
+msgid "loader.tips.01.message"
+msgstr "Сохраняйте единообразие дизайнов и упрощайте их обновление в разных проектах."
+
+msgid "loader.tips.03.message"
+msgstr "Проектируйте гибко с помощью знакомых элементов управления макетом в стиле CSS."
+
+msgid "loader.tips.03.title"
+msgstr "Макеты как в CSS"
+
+msgid "loader.tips.05.message"
+msgstr "Делитесь ресурсами и стилями, чтобы сохранять единообразие."
+
+msgid "loader.tips.05.title"
+msgstr "Библиотеки дизайна"
+
+msgid "loader.tips.07.message"
+msgstr "Penpot использует SVG и CSS для удобной совместной работы с разработчиками."
+
+msgid "loader.tips.07.title"
+msgstr "Веб-стандартные форматы"
+
+msgid "loader.tips.08.message"
+msgstr "Ускорьте работу с помощью удобных сочетаний клавиш, например Shift + A для автоматического макета."
+
+msgid "loader.tips.10.title"
+msgstr "Поддержка плагинов"
+
+msgid "nitrate.form.subscribe-with-code"
+msgstr "Оформить подписку с кодом активации"
+
+msgid "nitrate.form.see-plan"
+msgstr "Посмотреть мой текущий план"
+
+msgid "nitrate.form.start-enterprise"
+msgstr "Начать работу с Enterprise"
+
+msgid "nitrate.form.title"
+msgstr "Разблокировать возможности Enterprise"
+
+msgid "nitrate.form.try-free"
+msgstr "Попробовать бесплатно 14 дней"
+
+msgid "nitrate.subscription.active-until"
+msgstr "Активен до %s"
+
+msgid "nitrate.subscription.renew-success"
+msgstr "Ваша подписка Enterprise продлена."
+
+msgid "nitrate.subscription.settings.manual-cancel"
+msgstr "Отменить подписку"
+
+msgid "nitrate.subscription.settings.manual-contact-us"
+msgstr "Чтобы отменить подписку Enterprise, свяжитесь с нами:"
+
+msgid "nitrate.subscription.settings.renew-with-code"
+msgstr "Продлить с кодом активации"
+
+msgid "not-found.no-permission.already-requested.or-others.file"
+msgstr "Вы уже запросили доступ к этому файлу или другим файлам либо проектам этой команды."
+
+msgid "not-found.no-permission.already-requested.or-others.project"
+msgstr "Вы уже запросили доступ к этому проекту или другим проектам либо файлам этой команды."
+
+msgid "not-found.no-permission.already-requested.project"
+msgstr "Вы уже запросили доступ к этому проекту."
+
+msgid "not-found.no-permission.ask"
+msgstr "ЗАПРОСИТЬ ДОСТУП"
+
+msgid "not-found.no-permission.done.remember"
+msgstr "Если владелец разрешит доступ, вас пригласят в команду."
+
+msgid "not-found.no-permission.done.success"
+msgstr "Ваш запрос успешно отправлен!"
+
+msgid "not-found.no-permission.file"
+msgstr "У вас нет доступа к этому файлу."
+
+msgid "not-found.no-permission.go-dashboard"
+msgstr "Перейти к личным проектам"
+
+msgid "not-found.no-permission.if-approves"
+msgstr "Если владелец разрешит доступ, вас пригласят в команду."
+
+msgid "not-found.no-permission.penpot-file"
+msgstr "Файл Penpot"
+
+msgid "not-found.no-permission.project"
+msgstr "У вас нет доступа к этому проекту."
+
+msgid "not-found.no-permission.project-name"
+msgstr "ПРОЕКТ"
+
+msgid "not-found.no-permission.you-can-ask.file"
+msgstr "Чтобы получить доступ к этому файлу, попросите владельца команды предоставить его."
+
+msgid "not-found.no-permission.you-can-ask.project"
+msgstr "Чтобы получить доступ к этому проекту, попросите владельца команды предоставить его."
+
+msgid "notifications.by-code.upgrade-version"
+msgstr "Доступна новая версия."
+
+msgid "notifications.invitation-deleted"
+msgstr "Приглашение успешно удалено"
+
+msgid "notifications.invitation-canceled"
+msgstr "Это приглашение больше недоступно."
+
+msgid "notifications.mcp.active-in-another-tab"
+msgstr "MCP активен в другой вкладке. Переключиться сюда?"
+
+msgid "notifications.mcp.active-in-this-tab"
+msgstr "Теперь MCP активен в этой вкладке."
+
+msgid "options.deleted-token-with-name"
+msgstr "Токен {%s} не существует или был удалён."
+
+msgid "plugins.validation.invalid-value"
+msgstr "Ожидается %s, получено %s (%s)"
+
+msgid "plugins.validation.message"
+msgstr "Недопустимое значение поля %s: %s"
+
+msgid "plugins.validation.received-value"
+msgstr "Получено %s (%s)"
+
+msgid "restore-shortcuts.modal-title"
+msgstr "Восстановить настройки по умолчанию"
+
+msgid "restore-shortcuts.modal-text"
+msgstr "Следующие сочетания клавиш будут восстановлены до значений по умолчанию."
+
+msgid "restore-shortcuts.acction"
+msgstr "Действие"
+
+msgid "restore-shortcuts.restore"
+msgstr "Восстановить"
+
+msgid "import-shortcuts.diff-modal-title"
+msgstr "Импортировать сочетания клавиш"
+
+msgid "import-shortcuts.diff-modal-text"
+msgstr "Следующие сочетания клавиш будут изменены импортированной конфигурацией."
+
+msgid "import-shortcuts.no-changes"
+msgstr "Между текущими и импортированными сочетаниями клавиш нет различий."
+
+msgid "import-shortcuts.apply"
+msgstr "Применить"
+
+msgid "title.settings.integrations"
+msgstr "Интеграции — Penpot"
+
+msgid "webgl.modals.webgl-unavailable.cta-dashboard"
+msgstr "Перейти в панель управления"
+
+msgid "webgl.modals.webgl-unavailable.cta-troubleshooting"
+msgstr "Руководство по устранению проблем"
+
+msgid "webgl.modals.webgl-unavailable.message"
+msgstr "WebGL недоступен в вашем браузере, но необходим для работы Penpot. Проверьте настройки браузера и/или закройте вкладки с большой графической нагрузкой."
+
+msgid "webgl.modals.webgl-unavailable.title"
+msgstr "Ой! WebGL недоступен"
+
+msgid "webgl.modals.webgl-unavailable.troubleshooting.after"
+msgstr " для проверки настроек браузера, аппаратного ускорения, драйверов и распространённых системных проблем."
+
+msgid "webgl.modals.webgl-unavailable.troubleshooting.before"
+msgstr "Следуйте нашему руководству по устранению проблем с WebGL"
+
+msgid "webgl.modals.webgl-unavailable.troubleshooting.link"
+msgstr "Руководство по устранению проблем с WebGL"
+
+msgid "webgl.toast.webgl-render-disabled"
+msgstr "Рендеринг WebGL отключён"
+
+msgid "webgl.toast.webgl-render-enabled"
+msgstr "Рендеринг WebGL включён"
+
+msgid "webgl.webgl-context-lost.toast"
+msgstr "Контекст WebGL потерян"
+
+msgid "webgl.webgl-context-recovered.toast"
+msgstr "Контекст WebGL восстановлен"
+
+msgid "workspace.plugins.permissions.disclaimer"
+msgstr "Обратите внимание: этот плагин создан сторонней организацией. Перед выдачей доступа убедитесь, что вы ей доверяете. Ваша конфиденциальность и безопасность важны для нас. Если у вас есть вопросы, обратитесь в службу поддержки."
+
+msgid "workspace.toolbar.frame-first-time"
+msgstr "Создайте доску. Нажмите и перетащите указатель, чтобы задать её размер. (%s)"
+
+msgid "workspace.toolbar.palette-bar"
+msgstr "Панель палитры"
+
+msgid "workspace.undo.entry.by"
+msgstr "автор: %s"
+
+msgid "workspace.versions.autosaved.entry"
+msgstr "Автосохранённых версий: %s"
+
+msgid "workspace.versions.autosaved.version"
+msgstr "Автосохранённая версия %s"
+
+msgid "workspace.versions.button.preview"
+msgstr "Предпросмотр версии"
+
+msgid "workspace.versions.expand-snapshot"
+msgstr "Развернуть снимки"
+
+msgid "workspace.versions.filter.user"
+msgstr "Версии пользователя %s"
+
+msgid "workspace.versions.locked-by-other"
+msgstr "Эта версия заблокирована пользователем %s и не может быть изменена"
+
+msgid "workspace.versions.preview-banner-title"
+msgstr "Предпросмотр версии: %s"
+
+msgid "workspace.versions.preview.unnamed"
+msgstr "Версия без названия"
+
+msgid "workspace.versions.snapshot-menu"
+msgstr "Открыть меню снимка"
+
+msgid "workspace.versions.tooltip.locked-version"
+msgstr "Заблокированная версия — изменить её может только создатель"
+
+msgid "workspace.versions.version-menu"
+msgstr "Открыть меню версии"
